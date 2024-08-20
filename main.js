@@ -56,7 +56,7 @@ const resultsSection = document.querySelector("#results");
 const favoritesSection = document.querySelector("#favorites");
 
 const APIKEY = import.meta.env.VITE_OMDB_API_KEY;
-const API_URL = `https://www.omdbapi.com/?apikey=${APIKEY}&type=movie&s=`;
+const API_URL = `http://www.omdbapi.com/?apikey=${APIKEY}&type=movie&s=`;
 
 const state = {
   searchTerm: '',
