@@ -4,7 +4,6 @@
 // Create a function for comment
 // Fix styling 
 // Use indexDB for offline use
-// 
 
 document.querySelector("#app").innerHTML = `
 <style>
